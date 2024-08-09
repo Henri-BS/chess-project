@@ -4,8 +4,8 @@ import boardgame.ChessException;
 import boardgame.Position;
 
 public class ChessPosition {
-    private char collumn;
-    private int row;
+    private final char collumn;
+    private final int row;
 
     public ChessPosition(char collumn, int row) {
         if (collumn < 'a' || collumn > 'h' || row < 1 || row > 8){

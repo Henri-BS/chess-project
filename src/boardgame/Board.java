@@ -2,9 +2,9 @@ package boardgame;
 
 public class Board {
 
-    private int rows;
-    private int columns;
-    private Piece[][] pieces;
+    private final int rows;
+    private final int columns;
+    private final Piece[][] pieces;
 
     public Board(int rows, int columns) {
         if (rows < 1 || columns < 1) {
